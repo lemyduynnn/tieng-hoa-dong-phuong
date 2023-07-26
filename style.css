@@ -1,0 +1,357 @@
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: 'Be Vietnam Pro';
+}
+
+/* css-section-header */
+.section-header {
+   background-image: url("./img/Banner\ 1.png");
+   background-size: 100% 100%;
+   width: 100%;
+   height: 850px;
+   overflow: hidden;
+}
+
+/* css-header */
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0;
+}
+
+.bars-header {
+   display: none;
+}
+
+.logo-header {
+
+}
+ 
+ .list-header ul {
+   list-style: none;
+   padding: 0;
+   margin: 0 40px ;
+ }
+ 
+ .list-header li {
+   display: inline-block;
+   margin-right: 10px;
+   line-height: 24px;
+   /* padding:5px; */
+ }
+ 
+ .list-header a {
+   text-decoration: none;
+   font-size: 15px;
+   text-align: center;
+   color: #00174D;
+
+ }
+
+ .list-header a:hover {
+   color:#2D61F0;
+ }
+
+ .contact-header .button-contact-header{
+   background-image: linear-gradient(#FF8D4E, #FF5544);
+   color:#ffff;
+   width: 191px;
+   height:48px;
+   border:1px solid #ffff;
+   border-radius: 30px;
+   text-align: center;
+   gap:4px;
+   box-shadow: 8px 8px 16px 0 #cccc;
+   font-size: 15px;
+   cursor: pointer;
+ }
+
+ .contact-header .button-contact-header svg {
+   vertical-align: middle;
+   margin-right: 5px;
+   height: 1em;   
+   fill:#ffff;
+ }
+
+/* css-slide-header */
+ 
+.slide-header {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+ }
+
+.main-text-slide-header {
+   line-height: 62px;
+   font-size: 47px;
+   margin-top: 5%;
+}
+
+.main-text-blue-slide-header {
+   color:#2D61F0;
+   line-height: 110px;
+   font-size: 70px;
+   font-family: 'Pattaya';
+}
+
+ .text-slide-header{
+   width:36%;
+   color: #00174D;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 100;
+   text-align: center;
+ }
+ 
+ .button-section-header {
+   background-image: linear-gradient(#FF8D4E, #FF5544);
+   color:#ffff;
+   width: 142px;
+   height:40px;
+   border:1px solid #ffff;
+   border-radius: 30px;
+   text-align: center;
+   gap:4px;
+   box-shadow: 8px 8px 16px 0 #cccc;
+   font-size: 14px;
+   margin-top: 15%;
+   cursor: pointer;
+
+ }
+ .button-watchvideo {
+   border:1px solid #2D61F0;
+   color:#2D61F0;
+   background-image: linear-gradient(#ffff, #ffff);
+   width: 134px;
+   height:40px;
+
+ }
+ 
+ .button-watchvideo svg {
+   vertical-align: middle;
+   margin-right: 5px;
+   height: 1em;
+   fill: #0080FF;
+ }
+
+ /* css-section-introduce */
+main {
+   position: relative;
+}
+
+.button-statistical-content-introduce button{
+   background-image: linear-gradient(#FF8D4E, #FF5544);
+   color:#ffff;
+   width: 142px;
+   height:45px;
+   border:1px solid #ffff;
+   border-radius: 30px;
+   text-align: center;
+   gap:4px;
+   box-shadow: 8px 8px 16px 0 #0000;
+   font-size: 14px;
+   cursor: pointer;
+
+}
+.section-introduce {
+   background-image: url("./img/Union.png");
+   background-size: 100% 100%;
+   width: 100%;
+   height: 900px;
+   margin-top: -10%;
+ 
+}
+.section2-introduce {
+   background-image: url("./img/Noise\ &\ Texture.png");
+   background-size: 100% 100%;
+   width: 100%;
+   height: 900px;
+   position: relative;
+   top: 10%;
+   z-index: 1;
+}
+.title-section-introduce {
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+   color:#ffff;
+}
+.title-section-introduce h2{
+   color:#00174D;
+   font-size: 42px;
+   margin-top: -50px;
+}
+.title-section-introduce p {
+   font-size: 14px;
+   margin-top: 10px;
+}
+.content-section-introduce {
+   justify-content: center;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 45% 45%;
+   grid-gap: 10px;
+   color:#ffff;
+   margin-top: 50px;
+}
+.img-content{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 49% 49%;
+   grid-gap: 7px;
+}
+.img-content img{
+   width: 100%;
+   height: auto;
+}
+.content-introduce .title-content-introduce {
+   margin-bottom: 20px;
+}
+.content-introduce .title-content-introduce h4{
+   font-size: 21px;
+   line-height: 30px;
+   width: 75%;
+
+}
+.content-introduce .title-content-introduce p{
+   font-size: 14px;
+   line-height: 20px;
+   padding: 10px 0;
+   width: 75%;
+   opacity: 80%;
+
+}
+
+.item-statistical-content-introduce {
+   width: 75%;
+   display: flex;
+   border-bottom: 0.5px solid #fff;
+}
+.item-statistical-content-introduce span{
+   font-size: 30px;
+   line-height: 45px;
+   padding: 10px 10px 10px 0;
+   width: 30%;
+   font-weight:900;
+
+}
+.item-statistical-content-introduce p{
+   font-size: 14px;
+   line-height: 20px;
+   padding: 10px 10px 10px 0;
+   width: 70%;
+   opacity: 80%;
+}
+.statistical-content-introduce {
+   margin-bottom: 20px;
+}
+
+/* css-section-reason */
+.section-reason {
+   width: 100%;
+   position: relative;
+   top:-230px;
+   z-index: 1;
+
+}
+.img-section-reason img {
+   width: 100%;
+   height: auto;
+   margin-top: 8%;
+}
+.box-reason{
+   background-image: url("./img/Vector.svg");
+   background-size: 220px 220px; 
+   width: 220px;
+   height: 220px;
+   margin: 0 6%;
+   position: relative;
+   margin-bottom: -10%;
+}
+.box-reason-bottom {
+   margin-top: 100px;
+}
+.title-box-reason {
+   display:flex;
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+}
+
+.box-reason-bottom{
+   margin-top: -10px;
+}
+
+.title-section-reason {
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+   color:#ffff;
+
+}
+.title-section-reason h2{
+   color:#00174D;
+   font-size: 42px;
+}
+
+/* css-section-course */
+.section-course {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+
+}
+
+.title-section-course h2 {
+   color:#00174D;
+   margin-bottom: 50px;
+   font-size: 42px;
+
+}
+
+.section-course img {
+   max-width: 100%;
+}
+
+.section-course .box-section-course {
+   display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* chia làm 4 cột */
+    grid-column-gap: 20px; /* khoảng cách giữa các cột */
+    grid-row-gap: 20px; 
+}
+
+.box-section-course .item-box-section-course {
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+}
+
+.box-section-course .item-box-section-course div {
+   margin-top: -20px;
+}
+.section-course .box-section-course .item-box-section-course button {
+   background-image: linear-gradient(#2D61F0, #2AACFE);
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   margin-bottom: 5px; 
+   border-radius: 25px;
+   cursor: pointer;
+
+}
+
+.section-course .box-section-course .item-box-section-course p {
+   margin: 0;
+   color: #00174D;
+   text-align: center;
+}
+
+
