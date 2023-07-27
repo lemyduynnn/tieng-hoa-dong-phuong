@@ -1,143 +1,480 @@
 @media only screen and (max-width:1024px) {
-   /* responsive-header */
-  .section-header  {
-    width: 100%;
-    padding: 0;
-    background-size: 100% 100%;
-   height: 700px;
+
+/* responsive-header */
+.section-header {
+  height: 700px;
+  padding: 0 7px;
+}
+.logo-header img {
+  width: 85%;
+}
+.list-header ul {
+  margin: 0 2px ;
+}
+.list-header li {
+  margin-right: 7px;
+  line-height: 20px;
+}
+.list-header a {
+  font-size: 12px;
+}
+.contact-header .button-contact-header{
+   width: 160px;
+   height:37px;
+   border-radius: 27px;
+   font-size: 13px;
   }
-  .logo-header img{
-   width: 70%;
-   height: 70%;
+ .main-text-slide-header {
+   line-height: 45px;
+   font-size: 2.5em;
+   margin-top: 5%;
 }
-  .vector-section-header img{
-   width: 50%;
-   height: 50%;  
+.main-text-blue-slide-header {
+   line-height: 80px;
+   font-size: 3.1em;
 }
-  .contact-header .button-contact-header{
-     background-image: linear-gradient(#FF8D4E, #FF5544);
-     color:#ffff;
-     width: 140px;
-     height:40px;
-     border:1px solid #ffff;
-     border-radius: 30px;
-     text-align: center;
-     gap:4px;
-     box-shadow: 8px 8px 16px 0 #cccc;
-     font-size: 14px;
-   }
-   .list-header ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 7px ;
-    }
-    
-    .list-header li {
-      display: inline-block;
-      margin-right: 3px;
-      line-height: 15px;
-    }
-    
-    .list-header a {
-      text-decoration: none;
-      font-size: 13px;
-      text-align: center;
-   
-    }
+ .text-slide-header{
+   font-size: 13.5px;
+   line-height: 20px;
+ }
+ .vector-section-header img {
+   width: 75%;
+ }
+ .button-section-header {
+   border:1px solid #ffff;
+   height:37px;
+   border-radius: 20px;
+   box-shadow: 4px 4px 8px 0 #cccc;
+   font-size: 12.5px;
+   margin-top: 15%;
+ }
+ .button-watchvideo {
+   height:30px;
+ }
 
-   .main-text-slide-header {
-      line-height: 50px;
-      font-size: 40px;
-      margin-top: 5%;
-   }
-   
-   .main-text-blue-slide-header {
-      line-height: 90px;
-      font-size: 60px;
-   }
-   
-    .text-slide-header{
-      width:20%;
-      font-size: 13px;
-      line-height: 20px;
-      text-align: center;
-    }
-    .button-section-header {
-      display:block;
-    }
+  /* css-section-introduce */
 
+  .button-statistical-content-introduce button{
+   height:37px;
+   border-radius: 20px;
+   font-size: 13.5px;
+}
+ .section-introduce {
+   background-size: 100% 100%;
+   margin-top: -13%;
+   height: auto;
+ }
+
+ .section2-introduce {
+  height:  auto;
 }
 
- @media only screen and (max-width:800px) {
-    /* responsive-header */
-   .section-header  {
-     width: 100%;
-     padding: 0;
-     background-size: 100% 100%;
-      height: 550px;
-   }
-   .list-header ul {
-      display:none;
-    }
-    .bars-header {
-      display: block;
-      color:#00174D;
-      font-size: 25px;
-      margin-left: 20%;
-   }
+.img-content{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 7px;
+}
 
-   .vector-section-header img{
-      width: 35%;
-      height: 35%;  
-   }
-   .contact-header .button-contact-header{
-      display:none
-    }
-    .main-text-slide-header {
-      line-height: 40px;
-      font-size: 35px;
-      margin-top: 5%;
-   }
-   
-   .main-text-blue-slide-header {
-      line-height: 80px;
-      font-size: 55px;
-   }
-   
-    .text-slide-header{
-      width:20%;
-      font-size: 12px;
-      line-height: 15px;
-      text-align: justify;
-    }
- 
-     /* css-section-introduce */
-     .content-section-introduce {
-      display: block;
-     }
-     .section-introduce {
-      background-image: url("./img/Union.png");
-      width: 100%;
-      height: 950px;
-      position: absolute;
-      top: 63%;
-      z-index: 1;
-   }
-   .section2-introduce {
-      background-image: url("./img/Noise\ &\ Texture.png");
-      background-size: 100% 100%;
-      width: 100%;
-      height: 950px;
-      position: absolute;
-      top: 15%;
-      z-index: 1;
-   }
+.title-section-introduce h2{
+ font-size: 2.5em;
+ padding-top: 70px;
+}
+.title-section-introduce p {
+   font-size: 1em;
+   margin-top: 10px;
+}
+.content-section-introduce {
+ margin-top: 5px;
+ margin: 1.5em;
+}
+.content-introduce .title-content-introduce h4{
+font-size: 1.2em;
+line-height: 25px;
+width: 85%;
+}
+.content-introduce .title-content-introduce p{
+font-size: 0.5em;
+line-height: 15px;
+padding: 10px 0;
+width: 80%;
+}
+.content-introduce .title-content-introduce {
+  margin-bottom: 0;
+}
+.content-introduce {
+  margin-left: 15px;
+
+}
+.item-statistical-content-introduce {
+width: 80%;
+}
+.item-statistical-content-introduce span{
+font-size: 22px;
+line-height: 35px;
+padding: 5px 5px 5px 0;
+width: 30%;
+font-weight:900;
+}
+.item-statistical-content-introduce p{
+font-size:0.5em;
+line-height: 15px;
+padding: 10px 10px 10px 0;
+width: 70%;
+}
+
+/* css-section-reason */
+.section-reason {
+margin-top: 10%;
+}
+
+.box-reason{
+background-size: 10em 10em; 
+width: 10em;
+height: 10em;
+}
+
+.img-section-reason img {
+  margin-bottom: -95px;
+
+}
+.box-reason svg {
+font-size: 2em;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+.title-section-reason {
+  margin-bottom: 50px;
+}
+.title-section-reason h2{
+color:#ffff;
+font-size: 2.5em;
+width: 90%;
+}
+.box-reason p {
+width: 80%;
+margin-left: 12px;
+font-size: 0.8em;
+}
+.box-reason-top {
+margin: 0 55px;
+margin-bottom: -105px;
+}
+.box-reason-bottom {
+margin: 0 55px;
+}
+
+/* css-section-course */
+
+.section-course {
+  margin-top: 20%;
+}
+
+.title-section-course h2 {
+width: 100%;
+margin-bottom: 50px;
+font-size: 2.5em;
+}
+.section-course .box-section-course {
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 20px; 
+grid-row-gap: 20px; 
+}
+
+/* css-section-featuredCourse */
+.title-section-featuredCourse h2 {
+font-size:2.5em;
+}
+
+.section-featuredCourse .box-section-featuredCourse {
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:35px;
+}
+.button-section-featuredCourse button{
+border-radius: 20px;
+box-shadow: 4px 4px 8px 0 #cccc;
+font-size: 14px;
+}
+
+/* css-banner2-section */
+.section-banner2 img {
+max-width: 90%;
+}
+
+/* css-section-teacher */
+.section-teacher {
+height: auto;
+margin-top: -10%;
+}
+
+.section-teacher2 {
+height: auto;
+top: 20%;
+}
+.title-section-teacher {
+padding-top: 150px;
+}
+.title-section-teacher h2{
+  padding: 1em 0;
+  font-size: 2.5em;
+}
+.item-img-section-teacher p {
+  padding: 0.8em 0;
+  margin-bottom: -30.5%;
+}
+
+.slide-img-section-teacher svg {
+  font-size: 0.6em;
+}
+
+.box-news-section-teacher {
+  display: block;
+  width: 80%;
+  margin: 0.5em 8em;
+}
+.item-box-news-section-teacher {
+  max-width: 90%;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+}
+
+ @media only screen and (max-width:768px) {
+
+/* responsive-header */
+.section-header {
+  height: 650px;
+}
+.list-header ul {
+   display:none;
+ }
+ .bars-header {
+   display: block;
+   color:#00174D;
+   font-size: 25px;
+   margin-left: 2em;
+}
+ .logo-header img{
+   width: 85%;
+   height: 85%;
+}
+.contact-header .button-contact-header{
+   display:none
+ }
+ .main-text-slide-header {
+   line-height: 20px;
+   font-size: 1.9em;
+   margin-top: 5%;
+}
+
+.main-text-blue-slide-header {
+   line-height: 60px;
+   font-size: 2.5em;
+}
+ .text-slide-header{
+   font-size: 11px;
+   line-height: 14px;
+ }
+ .vector-section-header img {
+   width: 55%;
+ }
+ .button-section-header {
+   border:1px solid #ffff;
+   height:32px;
+   border-radius: 20px;
+   display: block;
+   box-shadow: 4px 4px 8px 0 #cccc;
+   font-size: 10px;
+   margin-top: 15%;
+ }
+ .button-watchvideo {
+   height:28px;
+ }
+
+  /* css-section-introduce */
+
+  .button-statistical-content-introduce button{
+   height:32px;
+   border-radius: 20px;
+   font-size: 12px;
+}
+ .section-introduce {
+   background-size: 100% 100%;
+   margin-top: -17%;
+   height: auto;
+ }
+ .section2-introduce {
+   height:  auto;
+}
+
+.title-section-introduce h2{
+ font-size: 2em;
+ padding-top: 50px;
+}
+.title-section-introduce p {
+   font-size: 0.9em;
+   margin-top: 12px;
+}
+.content-section-introduce {
+ display: block;
+ margin-top: 20px;
+ margin: 2em 10em;
+}
+.img-content{
+display: block;
+}
+.content-introduce .title-content-introduce h4{
+font-size: 1.5em;
+line-height: 40px;
+width: 100%;
+}
+.content-introduce .title-content-introduce p{
+font-size: 0.9em;
+line-height: 22px;
+padding: 10px 0;
+width: 100%;
+}
+.item-statistical-content-introduce {
+width: 100%;
+}
+.item-statistical-content-introduce span{
+font-size: 24px;
+line-height: 35px;
+padding: 5px 5px 5px 0;
+width: 30%;
+font-weight:900;
+}
+.item-statistical-content-introduce p{
+font-size:0.9em;
+line-height: 20px;
+padding: 10px 10px 10px 0;
+width: 70%;
+}
+
+/* css-section-reason */
+.section-reason {
+margin-top: 15%;
+}
+.box-reason{
+background-size: 7.5em 7.5em; 
+width: 7.5em;
+height: 7.5em;
+}
+
+.img-section-reason img {
+margin-top: -50px;
+}
+
+.box-reason svg {
+font-size: 1.8em;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+.title-section-reason h2{
+color:#ffff;
+font-size: 2em;
+width: 90%;
+}
+.box-reason p {
+width: 80%;
+margin-left: 12px;
+font-size: 0.7em;
+}
+.box-reason-top {
+/* margin-top: -20px; */
+margin: 0 40px;
+
+}
+.box-reason-bottom {
+/* margin-top: -100px; */
+margin: 0 40px;
+
+}
+
+/* css-section-course */
+.title-section-course h2 {
+width: 100%;
+margin-bottom: 25px;
+font-size: 2em;
+}
+
+.section-course .box-section-course {
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:35px;
+}
+
+/* css-section-featuredCourse */
+.title-section-featuredCourse h2 {
+font-size:2em;
+}
+
+.section-featuredCourse .box-section-featuredCourse {
+display:grid;
+grid-template-columns: 1fr;
+gap:35px;
+}
+.button-section-featuredCourse button{
+border-radius: 20px;
+box-shadow: 4px 4px 8px 0 #cccc;
+font-size: 12px;
+}
+
+/* css-banner2-section */
+.section-banner2 img {
+max-width: 90%;
+}
+
+/* css-section-teacher */
+.section-teacher {
+height: auto;
+margin-top: -20%;
+}
+
+.section-teacher2 {
+height: auto;
+top: 15%;
+}
+.title-section-teacher {
+padding-top: 26%;
+}
+.title-section-teacher h2{
+font-size: 2em;
+}
+
+.img-section-teacher {
+  display: block;
+}
+
+.item-img-section-teacher {
+  display: block;
+  border-radius: 1.5em ;
+  height: 27em;
+  margin:2em 9em;
+  width: 60%;
+  margin-bottom: 5em;
+
+}
+.item-img-section-teacher img {
+  margin-top: 3.5em;
+  max-width: 60%;
+}
+
+.box-news-section-teacher {
+  margin: 0.5em 7em;
+}
+
 
  }
+
  @media only screen and (max-width:500px) {
    /* responsive-header */
    .section-header {
-     width: 100%;
+     height: 550px;
    }
    .list-header ul {
       display:none;
@@ -154,5 +491,203 @@
    .contact-header .button-contact-header{
       display:none
     }
+    .main-text-slide-header {
+      line-height: 20px;
+      font-size: 1.5em;
+      margin-top: 5%;
+   }
+   
+   .main-text-blue-slide-header {
+      line-height: 60px;
+      font-size: 2em;
+   }
+    .text-slide-header{
+      font-size: 9px;
+      line-height: 14px;
+    }
+    .vector-section-header img {
+      width: 40%;
+    }
+    
+    .button-section-header {
+      height:25px;
+      border:1px solid #ffff;
+      border-radius: 10px;
+      display: block;
+      box-shadow: 4px 4px 8px 0 #cccc;
+      font-size: 8px;
+      margin-top: 15%;
+    }
+    .button-watchvideo {
+      height:25px;
+    }
+
+     /* css-section-introduce */
+
+     .button-statistical-content-introduce button{
+      width: 80px;
+      height:25px;
+      border:1px solid #ffff;
+      border-radius: 10px;
+      gap:4px;
+      box-shadow: 4px 4px 8px 0 #0000;
+      font-size: 8px;
+   }
+    .section-introduce {
+      background-size: 100% 100%;
+      margin-top: -25%;
+      height: auto;
+    }
+    .section2-introduce {
+      height:  auto;
+   }
+  .title-section-introduce h2{
+    font-size: 1.7em;
+    padding-top: 25px;
+  }
+  .title-section-introduce p {
+      font-size: 0.7em;
+      margin-top: 8px;
+  }
+  .content-section-introduce {
+    display: block;
+    margin-top: 10px;
+    margin: 1em 2.5em;
+ }
+ .img-content{
+  display: block;
+}
+.content-introduce .title-content-introduce h4{
+  font-size: 1em;
+  line-height: 20px;
+  width: 100%;
+}
+.content-introduce .title-content-introduce p{
+  font-size: 0.7em;
+  line-height: 18px;
+  padding: 10px 0;
+  width: 90%;
+}
+.item-statistical-content-introduce {
+  max-width: 90%;
+}
+.item-statistical-content-introduce span{
+  font-size: 20px;
+  line-height: 35px;
+  padding: 5px 5px 5px 0;
+  width: 30%;
+  font-weight:900;
+}
+.item-statistical-content-introduce p{
+  font-size:0.7em;
+  line-height: 20px;
+  padding: 10px 10px 10px 0;
+  width: 70%;
+}
+
+ /* css-section-reason */
+ .section-reason {
+  margin-top: 20%;
+}
+.box-reason{
+  background-size: 5em 5em; 
+  width: 5em;
+  height: 5em;
+}
+
+.img-section-reason img {
+  margin-top: -30px;
+}
+
+.box-reason svg {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.title-section-reason h2{
+  color:#ffff;
+  font-size: 1.7em;
+  width: 90%;
+}
+.box-reason p {
+  width: 80%;
+  margin-left: 20px;
+  font-size: 0.5em;
+}
+.box-reason-top {
+  margin-top: 80px;
+  margin: 0 10px;
+
+}
+.box-reason-bottom {
+  margin-top: -70px;
+  margin: 0 20px;
+
+}
+
+/* css-section-course */
+.title-section-course h2 {
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 1.7em;
+}
+
+.section-course .box-section-course {
+  display:grid;
+   grid-template-columns: 1fr;
+   gap:35px;
+}
+
+/* css-section-featuredCourse */
+.title-section-featuredCourse h2 {
+  font-size:1.7em;
+}
+
+.section-featuredCourse .box-section-featuredCourse {
+  display:grid;
+   grid-template-columns: 1fr;
+   gap:35px;
+}
+.button-section-featuredCourse button{
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 0 #cccc;
+  font-size: 12px;
+}
+
+/* css-banner2-section */
+.section-banner2 img {
+  max-width: 90%;
+}
+
+/* css-section-teacher */
+.section-teacher {
+  height: auto;
+  margin-top: -20%;
+}
+
+.section-teacher2 {
+  height: auto;
+  top: 10%;
+}
+.title-section-teacher {
+  padding-top: 120px;
+}
+.title-section-teacher h2{
+  font-size: 1.7em;
+}
+.item-img-section-teacher {
+  border-radius: 1em ;
+  height: 20.7em;
+  margin:1.5em 6em;
+  margin-bottom: 5em;
+}
+.slide-img-section-teacher svg {
+  font-size: 0.5em;
+}
+.box-news-section-teacher {
+  margin: 0.5em 4em;
+}
+
  }
  
