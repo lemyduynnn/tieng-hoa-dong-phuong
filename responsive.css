@@ -206,19 +206,14 @@ max-width: 90%;
 /* css-section-teacher */
 .section-teacher {
 height: auto;
-margin-top: -10%;
+margin-top: -15%;
 }
-
 .section-teacher2 {
 height: auto;
 top: 20%;
 }
 .title-section-teacher {
-padding-top: 150px;
-}
-.title-section-teacher h2{
-  padding: 1em 0;
-  font-size: 2.5em;
+padding-top: 100px;
 }
 .item-img-section-teacher p {
   padding: 0.8em 0;
@@ -238,6 +233,66 @@ padding-top: 150px;
   max-width: 90%;
   border-radius: 20px;
   margin-bottom: 1em;
+}
+.button-section-teacher {
+  padding-bottom: 2em;
+}
+/* css-section-student */
+.assess-item2-box-section-student {
+  height: 22em;
+}
+
+/* css-section-center */
+.section-center .box-section-center {
+  display: block;
+}
+.item-box-section-center {
+  width: 90%;
+  margin: 1em 3em; 
+}
+.img-box-section-center img {
+  margin: 1em 3em; 
+}
+.opacity-item2-box-section-center {
+  margin-top: -25%;
+}
+
+/* css-section-question */
+.box-section-question {
+  display: block;
+}
+.img-box-section-question img {
+  display: none;
+}
+.item-box-section-question {
+  width: 80%;
+  margin: 0 12%;
+}
+/* css-footer */
+footer {
+  height: auto;
+  margin-top: 5%;
+}
+.background-footer {
+  height: auto;
+
+}
+.logo-footer img {
+  margin-top: 2em;
+}
+.text-footer p {
+  padding: 1em 15%;
+  }
+  .box-footer {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-column-gap: 1em; 
+    grid-row-gap: 1em; 
+    padding-bottom: 1.5em;
+ }
+ .list-footer ul {
+  padding: 0;
+  width: 85%;
 }
 
 }
@@ -396,7 +451,7 @@ margin: 0 40px;
 }
 
 /* css-section-course */
-.title-section-course h2 {
+.title h2 {
 width: 100%;
 margin-bottom: 25px;
 font-size: 2em;
@@ -409,9 +464,6 @@ gap:35px;
 }
 
 /* css-section-featuredCourse */
-.title-section-featuredCourse h2 {
-font-size:2em;
-}
 
 .section-featuredCourse .box-section-featuredCourse {
 display:grid;
@@ -442,10 +494,6 @@ top: 15%;
 .title-section-teacher {
 padding-top: 26%;
 }
-.title-section-teacher h2{
-font-size: 2em;
-}
-
 .img-section-teacher {
   display: block;
 }
@@ -468,6 +516,45 @@ font-size: 2em;
   margin: 0.5em 7em;
 }
 
+/* css-section-student */
+.box-section-student {
+  display: block;
+}
+.item-box-section-student {
+  margin: 2em 4em;
+  width: 80%;
+}
+.item2-box-section-student {
+  width: 100%;
+}
+.assess-item2-box-section-student {
+  width: 80%;
+  height: 18em;
+  top: 15%;
+  left: 10%;
+}
+
+/* css-section-center */
+.item-box-section-center {
+  margin: 1em 2em; 
+}
+.img-box-section-center img {
+  margin: 1em 2em; 
+}
+.opacity-item2-box-section-center {
+  margin-top: -30%;
+}
+/* css-section-question */
+.item-box-section-question {
+  width: 95%;
+  margin: 0 6%;
+}
+
+/* css-footer */
+.list-footer ul {
+  padding: 0;
+  width: 100%;
+}
 
  }
 
@@ -541,7 +628,7 @@ font-size: 2em;
     .section2-introduce {
       height:  auto;
    }
-  .title-section-introduce h2{
+  .title h2{
     font-size: 1.7em;
     padding-top: 25px;
   }
@@ -604,12 +691,6 @@ font-size: 2em;
   margin-top: 20px;
   margin-bottom: 5px;
 }
-
-.title-section-reason h2{
-  color:#ffff;
-  font-size: 1.7em;
-  width: 90%;
-}
 .box-reason p {
   width: 80%;
   margin-left: 20px;
@@ -623,15 +704,9 @@ font-size: 2em;
 .box-reason-bottom {
   margin-top: -70px;
   margin: 0 20px;
-
 }
 
 /* css-section-course */
-.title-section-course h2 {
-  width: 100%;
-  margin-bottom: 25px;
-  font-size: 1.7em;
-}
 
 .section-course .box-section-course {
   display:grid;
@@ -640,9 +715,6 @@ font-size: 2em;
 }
 
 /* css-section-featuredCourse */
-.title-section-featuredCourse h2 {
-  font-size:1.7em;
-}
 
 .section-featuredCourse .box-section-featuredCourse {
   display:grid;
@@ -665,16 +737,12 @@ font-size: 2em;
   height: auto;
   margin-top: -20%;
 }
-
 .section-teacher2 {
   height: auto;
   top: 10%;
 }
 .title-section-teacher {
   padding-top: 120px;
-}
-.title-section-teacher h2{
-  font-size: 1.7em;
 }
 .item-img-section-teacher {
   border-radius: 1em ;
@@ -687,6 +755,51 @@ font-size: 2em;
 }
 .box-news-section-teacher {
   margin: 0.5em 4em;
+}
+
+/* css-section-student */
+.box-section-student {
+  display: block;
+}
+.item-box-section-student {
+  margin: 2em;
+  width: 80%;
+}
+.assess-item2-box-section-student {
+  width: 80%;
+  height: 23em;
+}
+
+/* css-section-center */
+.item-box-section-center {
+  margin: 1.3em; 
+}
+.img-box-section-center img {
+  margin-left: 1.3em;
+}
+.opacity-item2-box-section-center {
+  margin-top: -50%;
+}
+/* css-section-question */
+.item-blue-box-section-question {
+  width: 93%;
+  height: 15em;
+  margin: 0;
+
+}
+.text-item-blue-box-section-question p {
+  line-height: 24px;
+  font-size: 13.5px;
+  width: 70%;
+  margin-left: 18%;
+}
+.item-text-box-section-question {
+  display: flex;
+  width: 93%;
+  height: 4em;
+}
+.item-text-box-section-question h4 {
+  font-size: 16px;
 }
 
  }
