@@ -200,12 +200,16 @@ padding-top: 100px;
 .box-news-section-teacher {
   display: block;
   width: 80%;
-  margin: 0.5em 8em;
+  margin: 0 8em;
 }
 .item-box-news-section-teacher {
   max-width: 90%;
   border-radius: 20px;
   margin-bottom: 1em;
+}
+
+.item-img-section-teacher img {
+height: 12em;
 }
 .button-section-teacher {
   padding-bottom: 2em;
@@ -255,17 +259,26 @@ footer {
 }
 .text-footer p {
   padding: 1em 15%;
+  font-size: 12px;
   }
   .box-footer {
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 30% 30% 30%;
     grid-column-gap: 1em; 
     grid-row-gap: 1em; 
     padding-bottom: 1.5em;
  }
- .list-footer ul {
-  padding: 0;
-  width: 85%;
+ .box-footer .item-box-footer h4{
+  font-size: 13px;
+}
+.box-footer .item-box-footer p{
+  font-size: 11px;
+}
+ .list-footer .list-card-footer {
+  width:80%;
+}
+.list-footer a {
+  font-size: 11px;
 }
 
 }
@@ -437,15 +450,15 @@ padding-top: 26%;
 .item-img-section-teacher {
   display: block;
   border-radius: 1.5em ;
-  height: 27em;
+  height: 22em;
   margin:2em 9em;
-  width: 60%;
+  width: 55%;
   margin-bottom: 5em;
 
 }
 .item-img-section-teacher img {
-  margin-top: 3.5em;
-  max-width: 60%;
+  max-width: 100%;
+  height: 20em;
 }
 
 .box-news-section-teacher {
@@ -487,10 +500,6 @@ padding-top: 26%;
 }
 
 /* css-footer */
-.list-footer ul {
-  padding: 0;
-  width: 100%;
-}
 
  }
 
@@ -652,7 +661,7 @@ padding-top: 26%;
 .item-img-section-teacher {
   border-radius: 1em ;
   height: 20.7em;
-  margin:1.5em 6em;
+  margin:1.5em 6.5em;
   margin-bottom: 5em;
 }
 .slide-img-section-teacher svg {
@@ -661,7 +670,9 @@ padding-top: 26%;
 .box-news-section-teacher {
   margin: 0.5em 4em;
 }
-
+.item-img-section-teacher img {
+  height: 18.7em;
+}
 /* css-section-student */
 .box-section-student {
   display: block;
@@ -706,6 +717,16 @@ padding-top: 26%;
 .item-text-box-section-question h4 {
   font-size: 16px;
 }
-
+/* css-footer */
+.list-footer {
+  display: block;
+  width:100%;
+}
+.list-footer .list-card-footer {
+  width:100%;
+}
+.list-footer .item-footer {
+  padding:10px;
+}
  }
  
