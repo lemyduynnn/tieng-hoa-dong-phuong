@@ -27,8 +27,13 @@ body {
    padding: 0.8em 0;
 }
 
+/* css-section */
+.section {
+   margin-top: 10%;
+}
+
 /* css-section-header */
-.section-header {
+header {
    background-image: url("./img/Banner\ 1.png");
    background-size: 100% 100%;
    max-width: 100%;
@@ -101,7 +106,7 @@ body {
 
 /* css-slide-header */
  
-.slide-header {
+.slider-header {
    display: flex;
    flex-direction: column;
    align-items: center; 
@@ -185,8 +190,6 @@ body {
    max-width: 100%;
    height: 70em;
    margin-top: -10%;
-
-
 }
 .section2-introduce {
    background-image: url("./img/Noise\ &\ Texture.png");
@@ -275,55 +278,48 @@ body {
 .section-reason {
    max-width: 100%;
    position: relative;
-   top:17%;
+   top:15%;
    z-index: 2;
 }
 .img-section-reason img {
    max-width: 100%;
    height: auto;
-   margin-top: -120px;
+   margin-top: -10%;
 }
 .box-reason{
    background-image: url("./img/Vector.svg");
-   background-size: 14em 14em; 
+   background-size: 100% 100%; 
    width: 14em;
    height: 14em;
-   margin: 0 77px;
+   margin-right: -1%;
+   margin-left: -1%;
 }
 .box-reason svg {
    fill:#0080FF;
    font-size: 2.2em;
    margin-top: 50px;
    margin-bottom: 10px;
+   margin-left: 40%;
 }
 .box-reason p {
    width: 50%;
    margin-left: 55px;
    font-size: 1em;
+   text-align: center;
 }
 .box-reason-top {
-   margin-top: 130px;
+   margin-top: -1%;
 }
 .box-reason-bottom {
-   margin-top: -130px;
+   margin-top: 10%;
 }
 .title-box-reason {
    display:flex;
-   align-items: center; 
+   align-items: center;
    justify-content: center;
-   text-align: center; 
-}
-
-.title-section-reason {
-   align-items: center; 
-   justify-content: center;
-   text-align: center; 
-   color:#ffff;
-
-}
-.title-section-reason h2{
-   color:#ffff;
-   font-size: 2.8em;
+   max-width: 100%;
+   margin-top: 9%;
+   margin-bottom: -7%;
 }
 
 /* css-section-course */
@@ -371,8 +367,6 @@ body {
    color: #00174D;
    text-align: center;
 }
-
-
 /* css-section-featuredCourse */
 .section-featuredCourse{
    display: flex;
@@ -380,9 +374,9 @@ body {
    align-items: center;
    margin-top: 20px;
 }
-
 .section-featuredCourse img {
    max-width: 100%;
+   height: auto;
 }
 .stars svg {
    fill:#ffd93b;
@@ -450,7 +444,6 @@ body {
 .section-banner2 img {
    max-width: 100%;
 }
-
 /* css-section-teacher */
 
 .section-teacher {
@@ -460,7 +453,6 @@ body {
    height: 2200px;
    margin-top: -30%;
 }
-
 .section-teacher2 {
    background-image: url("./img/Noise\ &\ Texture2.png");
    background-size: 100% 100%;
@@ -485,10 +477,6 @@ body {
    border: 1px solid #fff;
    border-radius: 30px;
 }
-.button-img-section-teacher button svg{
- /*  */
-}
-
 .item-img-section-teacher {
    background-color: #EDEDED;
    border-radius: 0.5em ;
@@ -559,14 +547,12 @@ body {
    line-height: 25px;
    padding: 6px 0;
 }
-
 .text-item-box-news-section-teacher p {
    font-size: 0.8em;
    width: 90%;
    opacity: 80%;
    font-weight: 400;
    line-height: 20px;
-
 }
 .img-item-box-news-section-teacher img {
    max-width: 100%;
@@ -654,7 +640,6 @@ body {
    line-height: 24px;
    color: #1A1A1A;
    opacity: 80%;
-   
 }
 
 /* css-section-center */
@@ -753,7 +738,6 @@ body {
    width: 74%;
    margin-left: 20%;
 }
-
 .item-text-box-section-question {
    display: flex;
    width: 92%;
