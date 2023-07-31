@@ -1,7 +1,7 @@
 @media only screen and (max-width:1024px) {
 
 /* responsive-header */
-.section-header {
+header {
   height: 700px;
   padding: 0 7px;
 }
@@ -273,7 +273,7 @@ footer {
  @media only screen and (max-width:768px) {
 
 /* responsive-header */
-.section-header {
+header {
   height: 650px;
 }
 .list-header ul {
@@ -496,7 +496,7 @@ padding-top: 26%;
 
  @media only screen and (max-width:500px) {
    /* responsive-header */
-   .section-header {
+   header {
      height: 550px;
    }
    .list-header ul {
